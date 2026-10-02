@@ -1,0 +1,351 @@
+{
+  "heroes": [
+    {
+      "name": "Sentinel",
+      "aliases": [
+        "The Sentinel",
+        "Blue Guardian"
+      ],
+      "powers": [
+        "super strength",
+        "flight",
+        "enhanced durability"
+      ],
+      "feats": [
+        "Stopped a runaway armored truck downtown"
+      ],
+      "affiliations": [
+        "Independent"
+      ],
+      "weaknesses": [],
+      "civilian_identity": "Unknown",
+      "reputation": "Generally admired",
+      "sightings": []
+    },
+    {
+      "name": "Volt",
+      "aliases": [
+        "Voltage"
+      ],
+      "powers": [
+        "electricity manipulation",
+        "electrical sensing"
+      ],
+      "feats": [
+        "Prevented a citywide blackout"
+      ],
+      "affiliations": [
+        "Independent"
+      ],
+      "weaknesses": [],
+      "civilian_identity": "Unknown",
+      "reputation": "Generally positive",
+      "sightings": [
+        {
+          "place": "Mercer Avenue",
+          "timestamp": "2026-10-02 16:36:47",
+          "source": "HCScanner",
+          "confirmed": false
+        }
+      ]
+    },
+    {
+      "name": "Nightshade",
+      "aliases": [
+        "Shade"
+      ],
+      "powers": [
+        "shadow manipulation",
+        "stealth",
+        "enhanced agility"
+      ],
+      "feats": [
+        "Stopped a jewelry store robbery"
+      ],
+      "affiliations": [
+        "Unknown"
+      ],
+      "weaknesses": [],
+      "civilian_identity": "Unknown",
+      "reputation": "Mysterious",
+      "sightings": []
+    },
+    {
+      "name": "Ironclad",
+      "aliases": [
+        "Ironclad"
+      ],
+      "powers": [
+        "super durability",
+        "super strength"
+      ],
+      "feats": [],
+      "affiliations": [
+        "Unknown"
+      ],
+      "weaknesses": [],
+      "civilian_identity": "Unknown",
+      "reputation": "Unknown",
+      "sightings": []
+    },
+    {
+      "name": "Comet",
+      "aliases": [
+        "Comet"
+      ],
+      "powers": [
+        "flight",
+        "super speed",
+        "energy projection"
+      ],
+      "feats": [],
+      "affiliations": [
+        "Unknown"
+      ],
+      "weaknesses": [],
+      "civilian_identity": "Unknown",
+      "reputation": "Unknown",
+      "sightings": []
+    }
+  ],
+  "villains": [
+    {
+      "name": "Spectre",
+      "aliases": [],
+      "powers": [
+        "Phasing"
+      ],
+      "feats": [],
+      "affiliations": [
+        "Unknown"
+      ],
+      "weaknesses": [],
+      "civilian_identity": "Unknown",
+      "reputation": "Unknown",
+      "sightings": [],
+      "crimes": []
+    }
+  ],
+  "places": [
+    {
+      "name": "Downtown",
+      "type": "District",
+      "description": "The commercial heart of Hero City.",
+      "tags": [
+        "business",
+        "skyscrapers",
+        "crime"
+      ],
+      "associated_people": [],
+      "incidents": []
+    },
+    {
+      "name": "Old Harbor",
+      "type": "Waterfront",
+      "description": "Industrial docks, warehouses, bars, and shipping yards.",
+      "tags": [
+        "industrial",
+        "waterfront",
+        "smuggling"
+      ],
+      "associated_people": [],
+      "incidents": []
+    },
+    {
+      "name": "Hero City University",
+      "type": "University",
+      "description": "A major urban university campus.",
+      "tags": [
+        "students",
+        "science",
+        "research"
+      ],
+      "associated_people": [],
+      "incidents": []
+    },
+    {
+      "name": "Founders Park",
+      "type": "Park",
+      "description": "A massive public park in central Hero City.",
+      "tags": [
+        "park",
+        "families",
+        "events"
+      ],
+      "associated_people": [],
+      "incidents": []
+    },
+    {
+      "name": "Mercer Avenue",
+      "type": "Street",
+      "description": "A busy commercial avenue running through several neighborhoods.",
+      "tags": [
+        "shopping",
+        "traffic",
+        "restaurants"
+      ],
+      "associated_people": [],
+      "incidents": [
+        {
+          "timestamp": "2026-10-02 16:36:47",
+          "person": "Volt",
+          "source": "HCScanner",
+          "description": "Hearing reports of a possible powered individual at Mercer Avenue."
+        }
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Hero City Police Department",
+      "type": "Government",
+      "description": "Municipal police department.",
+      "members": [],
+      "notes": ""
+    },
+    {
+      "name": "Hero City University",
+      "type": "University",
+      "description": "Major research university.",
+      "members": [],
+      "notes": ""
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Maya Torres",
+      "alias": "Pulse",
+      "role": "Journalist / Influencer",
+      "description": "Independent journalist with a reputation for being first to major superhero stories.",
+      "relationships": [],
+      "notes": ""
+    }
+  ],
+  "social_users": [
+    {
+      "username": "Pulse",
+      "display_name": "Maya Torres",
+      "type": "journalist",
+      "bio": "Independent journalist. Finger on the pulse of Hero City.",
+      "weight": 8
+    },
+    {
+      "username": "CityWatchHC",
+      "display_name": "Hero City Watch",
+      "type": "news",
+      "bio": "Local news, traffic, emergencies, and civic updates.",
+      "weight": 4
+    },
+    {
+      "username": "HCFoodie",
+      "display_name": "Sam Chen",
+      "type": "local",
+      "bio": "Food, neighborhoods, and trying not to get caught in superhuman fights.",
+      "weight": 5
+    },
+    {
+      "username": "NightOwl92",
+      "display_name": "Derek Miller",
+      "type": "civilian",
+      "bio": "Usually awake when the weird stuff happens.",
+      "weight": 4
+    },
+    {
+      "username": "HeroFan4Life",
+      "display_name": "Ashley Reed",
+      "type": "fan",
+      "bio": "I have opinions about every hero. Yes, including yours.",
+      "weight": 5
+    },
+    {
+      "username": "HCTransit",
+      "display_name": "Hero City Transit",
+      "type": "official",
+      "bio": "Service alerts for Hero City's public transportation system.",
+      "weight": 3
+    },
+    {
+      "username": "OldTownLocal",
+      "display_name": "Frank Delgado",
+      "type": "local",
+      "bio": "Third generation Hero City resident.",
+      "weight": 3
+    },
+    {
+      "username": "ConspiracyCorner",
+      "display_name": "TruthSeekerHC",
+      "type": "conspiracy",
+      "bio": "Asking the questions the heroes don't want you asking.",
+      "weight": 2
+    },
+    {
+      "username": "HCScanner",
+      "display_name": "ScannerRat",
+      "type": "scanner",
+      "bio": "Not affiliated with emergency services. Probably.",
+      "weight": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "timestamp": "2026-10-02 16:36:35",
+      "username": "HCFoodie",
+      "display_name": "Sam Chen",
+      "type": "local",
+      "text": "Love living in Hero City. Nothing like hearing an explosion outside your window.",
+      "person": "Nightshade",
+      "place": "Hero City University",
+      "category": "complaint",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-10-02 16:36:40",
+      "username": "HeroFan4Life",
+      "display_name": "Ashley Reed",
+      "type": "fan",
+      "text": "I don't care what anyone says. Nightshade is AWESOME.",
+      "person": "Nightshade",
+      "place": "Hero City University",
+      "category": "fan",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-10-02 16:36:42",
+      "username": "OldTownLocal",
+      "display_name": "Frank Delgado",
+      "type": "local",
+      "text": "Can someone explain why Hero City University is closed AGAIN?",
+      "person": "Nightshade",
+      "place": "Hero City University",
+      "category": "complaint",
+      "verified": false
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-10-02 16:36:47",
+      "username": "HCScanner",
+      "display_name": "ScannerRat",
+      "type": "scanner",
+      "text": "Hearing reports of a possible powered individual at Mercer Avenue.",
+      "person": "Volt",
+      "place": "Mercer Avenue",
+      "category": "scanner",
+      "verified": false
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-10-02 16:36:52",
+      "username": "HeroFan4Life",
+      "display_name": "Ashley Reed",
+      "type": "fan",
+      "text": "Hero City doesn't deserve Volt.",
+      "person": "Volt",
+      "place": "Hero City University",
+      "category": "fan",
+      "verified": false
+    }
+  ]
+}
